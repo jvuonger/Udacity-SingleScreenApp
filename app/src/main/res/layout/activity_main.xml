@@ -142,7 +142,7 @@
                 style="@style/descriptionTextStyle"
                 android:id="@+id/address"
                 android:text="@string/addressText"
-                android:layout_toRightOf="@id/address_label"" />
+                android:layout_toRightOf="@id/address_label" />
         </RelativeLayout>
 
         <RelativeLayout
