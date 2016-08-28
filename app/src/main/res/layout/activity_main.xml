@@ -84,13 +84,9 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/labelStyle"
                 android:id="@+id/business_name_label"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Business Name:"
-                android:textStyle="bold"
-                android:textSize="14dp"
-                android:padding="6dp" />
+                android:text="Business Name:" />
 
             <TextView
                 android:id="@+id/business_name"
@@ -98,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:text="State Street Village"
                 android:layout_toRightOf="@id/business_name_label"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:padding="6dp" />
 
         </RelativeLayout>
@@ -108,13 +104,9 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/labelStyle"
                 android:id="@+id/phone_number_label"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Phone Number: "
-                android:textStyle="bold"
-                android:textSize="14dp"
-                android:padding="6dp"/>
+                android:text="Phone Number: "/>
 
             <TextView
                 android:id="@+id/phone_number"
@@ -122,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:text="734-973-0905"
                 android:layout_toRightOf="@id/phone_number_label"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:padding="6dp"/>
 
         </RelativeLayout>
@@ -132,13 +124,9 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/labelStyle"
                 android:id="@+id/email_label"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Email: "
-                android:textStyle="bold"
-                android:textSize="14dp"
-                android:padding="6dp" />
+                android:text="Email: " />
 
             <TextView
                 android:id="@+id/email"
@@ -146,7 +134,7 @@
                 android:layout_height="wrap_content"
                 android:text="StateStreetVillage@mckinley.com"
                 android:layout_toRightOf="@id/email_label"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:padding="6dp" />
         </RelativeLayout>
 
@@ -155,13 +143,9 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/labelStyle"
                 android:id="@+id/address_label"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Address: "
-                android:textStyle="bold"
-                android:textSize="14dp"
-                android:padding="6dp" />
+                android:text="Address: " />
 
             <TextView
                 android:id="@+id/address"
@@ -169,7 +153,7 @@
                 android:layout_height="wrap_content"
                 android:text="2225 S. State Street, Ann Arbor , MI 48104"
                 android:layout_toRightOf="@id/address_label"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:padding="6dp" />
         </RelativeLayout>
 
@@ -178,13 +162,9 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/labelStyle"
                 android:id="@+id/website_label"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Website: "
-                android:textStyle="bold"
-                android:textSize="14dp"
-                android:padding="6dp" />
+                android:text="Website: " />
 
             <TextView
                 android:id="@+id/website"
@@ -192,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:text="http://www.mckinley.com"
                 android:layout_toRightOf="@id/website_label"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:padding="6dp" />
         </RelativeLayout>
 
@@ -201,13 +181,9 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/labelStyle"
                 android:id="@+id/description_label"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Description: "
-                android:textStyle="bold"
-                android:textSize="14dp"
-                android:padding="6dp" />
+                android:text="Description: " />
 
             <TextView
                 android:id="@+id/description"
@@ -215,7 +191,7 @@
                 android:layout_height="wrap_content"
                 android:text="Apartment Complex"
                 android:layout_toRightOf="@id/description_label"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:padding="6dp" />
         </RelativeLayout>
     </LinearLayout>
