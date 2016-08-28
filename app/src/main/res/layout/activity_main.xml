@@ -89,13 +89,10 @@
                 android:text="Business Name:" />
 
             <TextView
+                style="@style/descriptionTextStyle"
                 android:id="@+id/business_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="State Street Village"
-                android:layout_toRightOf="@id/business_name_label"
-                android:textSize="14sp"
-                android:padding="6dp" />
+                android:text="@string/businessText"
+                android:layout_toRightOf="@id/business_name_label" />
 
         </RelativeLayout>
 
@@ -109,13 +106,10 @@
                 android:text="Phone Number: "/>
 
             <TextView
+                style="@style/descriptionTextStyle"
                 android:id="@+id/phone_number"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="734-973-0905"
-                android:layout_toRightOf="@id/phone_number_label"
-                android:textSize="14sp"
-                android:padding="6dp"/>
+                android:text="@string/phoneNumberText"
+                android:layout_toRightOf="@id/phone_number_label"/>
 
         </RelativeLayout>
 
@@ -129,13 +123,10 @@
                 android:text="Email: " />
 
             <TextView
+                style="@style/descriptionTextStyle"
                 android:id="@+id/email"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="StateStreetVillage@mckinley.com"
-                android:layout_toRightOf="@id/email_label"
-                android:textSize="14sp"
-                android:padding="6dp" />
+                android:text="@string/emailText"
+                android:layout_toRightOf="@id/email_label" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -148,13 +139,10 @@
                 android:text="Address: " />
 
             <TextView
+                style="@style/descriptionTextStyle"
                 android:id="@+id/address"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2225 S. State Street, Ann Arbor , MI 48104"
-                android:layout_toRightOf="@id/address_label"
-                android:textSize="14sp"
-                android:padding="6dp" />
+                android:text="@string/addressText"
+                android:layout_toRightOf="@id/address_label"" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -167,13 +155,10 @@
                 android:text="Website: " />
 
             <TextView
+                style="@style/descriptionTextStyle"
                 android:id="@+id/website"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="http://www.mckinley.com"
-                android:layout_toRightOf="@id/website_label"
-                android:textSize="14sp"
-                android:padding="6dp" />
+                android:text="@string/websiteText"
+                android:layout_toRightOf="@id/website_label"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -186,13 +171,10 @@
                 android:text="Description: " />
 
             <TextView
+                style="@style/descriptionTextStyle"
                 android:id="@+id/description"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Apartment Complex"
-                android:layout_toRightOf="@id/description_label"
-                android:textSize="14sp"
-                android:padding="6dp" />
+                android:text="@string/descriptionText"
+                android:layout_toRightOf="@id/description_label" />
         </RelativeLayout>
     </LinearLayout>
 

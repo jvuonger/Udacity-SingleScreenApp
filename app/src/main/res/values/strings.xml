@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">StateStreetVillage</string>
+    <string name="businessText">State Street Village</string>
+    <string name="phoneNumberText">734-973-0905</string>
+    <string name="emailText">StateStreetVillage@mckinley.com</string>
+    <string name="addressText">2225 S. State Street, Ann Arbor , MI 48104</string>
+    <string name="websiteText">http://www.mckinley.com</string>
+    <string name="descriptionText">Apartment Complex</string>
 </resources>
