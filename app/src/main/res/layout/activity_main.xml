@@ -158,7 +158,8 @@
                 style="@style/descriptionTextStyle"
                 android:id="@+id/website"
                 android:text="@string/websiteText"
-                android:layout_toRightOf="@id/website_label"/>
+                android:layout_toRightOf="@id/website_label"
+                android:autoLink="web" />
         </RelativeLayout>
 
         <RelativeLayout
